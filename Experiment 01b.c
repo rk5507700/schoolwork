@@ -36,6 +36,10 @@ void passGrade(int per){
     } else {
         printf("Fail.\n");
     }
+    printf("Greater than or equal to 90 is DISTINCTION.\n");
+    printf("Greater than or equal to 75 is FIRST CLASS.\n");
+    printf("Greater than or equal to 55 is SECOND CLASS.\n");
+    printf("Greater than or equal to 35 is PASS.\n");
 }
 
 int main(){
