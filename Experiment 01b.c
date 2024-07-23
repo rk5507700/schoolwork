@@ -18,16 +18,17 @@ int aggregate_marks(int marks[]){
 }
 
 void passGrade(int per){
-    if(per>35){
-        if(per>55){
-            if(per>75){
-                if(per>90){
+    printf(" Your grade is ");
+    if(per>=35){
+        if(per>=55){
+            if(per>=75){
+                if(per>=90){
                     printf("Distinction\n");
                 } else{
                     printf("First Class.\n");
                 }
             } else {
-                printf("Second Class.\n");
+                printf("Second Class.\n\n\n");
             }
         } else {
             printf("Pass.\n");
