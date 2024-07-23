@@ -36,7 +36,7 @@ void passGrade(int per){
     } else {
         printf("Fail.\n");
     }
-    printf("Greater than or equal to 90 is DISTINCTION.\n");
+    printf("\n\n\nGreater than or equal to 90 is DISTINCTION.\n");
     printf("Greater than or equal to 75 is FIRST CLASS.\n");
     printf("Greater than or equal to 55 is SECOND CLASS.\n");
     printf("Greater than or equal to 35 is PASS.\n");
@@ -44,7 +44,7 @@ void passGrade(int per){
 
 int main(){
     int number_of_students;
-    printf("Enter the number of students : ");
+    printf("\n\nEnter the number of students : ");
     scanf("%d", &number_of_students);
     struct student_record students[number_of_students];
     int sum[number_of_students];
